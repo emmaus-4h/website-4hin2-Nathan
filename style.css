@@ -9,13 +9,11 @@ html, body {
      font-family: sans-serif
 }
 
-
 main {
     margin: 0 auto;
     width: 700px;
     position: relative;
 }
-
 
 article {
     text-align: justify;
@@ -38,7 +36,7 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
+    float: center;
     margin-right: 15px;
 }
 
@@ -61,12 +59,12 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: rgb(235, 235, 236);
+    background-color: rgb(245, 245, 245);
     overflow: hidden;
 }
 
 nav ul li {
-    float: left;
+    float: center;
 }
 
 nav li a {

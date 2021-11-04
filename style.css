@@ -6,7 +6,8 @@ html, body {
     background-color: rgb(245, 245, 245);
     
     color: #303030;
-     font-family: sans-serif
+     font-family: sans-serif 
+    
 }
 
 main {
@@ -15,15 +16,16 @@ main {
     position: relative;
 }
 
-article {
+.article {
     text-align: justify;
 }
 
 
 header {
-    color: rgb(187, 187, 187);
+    color: rgb(70, 70, 70);
     text-align: center;
-    font-family: 'Bungee Hairline'
+   font-family: DotGothic16;
+}
 }
 
 
@@ -32,6 +34,15 @@ footer {
     padding-bottom: 10px;
 }
 
+.button {
+
+}
+
+.info{
+  text-align: center;
+  font-family: DotGothic16;
+   color: rgb(70, 70, 70);
+}
 
 /* specifieke stijlen */
 
@@ -61,6 +72,7 @@ nav ul {
     padding: 0;
     background-color: rgb(245, 245, 245);
     overflow: hidden;
+    font-family: Anton;
 }
 
 nav ul li {
@@ -69,11 +81,11 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(70, 70, 70);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-     font-family: 'Monda'
+ 
 
 nav li a:hover {
     background-color: rgb(235, 235, 236);

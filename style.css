@@ -47,7 +47,7 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: center;
+    float: left;
     margin-right: 15px;
 }
 
@@ -76,7 +76,7 @@ nav ul {
 }
 
 nav ul li {
-    float: center;
+    float: left;
 }
 
 nav li a {

@@ -6,7 +6,7 @@ html, body {
     background-color: rgb(245, 245, 245);
     
     color: #303030;
-     font-family: sans-serif 
+     font-family: DotGothic16
     
 }
 
@@ -26,29 +26,24 @@ header {
     text-align: center;
    font-family: DotGothic16;
 }
-}
-
 
 footer {
     text-align: center;
     padding-bottom: 10px;
 }
 
-.button {
-
-}
-
 .info{
   text-align: center;
   font-family: DotGothic16;
    color: rgb(70, 70, 70);
+   width: 700px
 }
+
 
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+float: left
 }
 
 .smalltext {

@@ -1,3 +1,6 @@
+/*border*/
+*{ border: solid 2px black}
+
 /* Basislayout */
 
 html, body {
@@ -36,14 +39,14 @@ footer {
   text-align: center;
   font-family: DotGothic16;
    color: rgb(70, 70, 70);
-   width: 700px
+  
 }
 
 
 /* specifieke stijlen */
 
 img.zweefLinks {
-float: left
+float: left;
 }
 
 .smalltext {
@@ -62,6 +65,7 @@ a:hover {
 
 /* navigatiebalk */
 nav ul {
+    width: fit-content; 
     list-style-type: none;
     margin: auto;
     padding: 0;

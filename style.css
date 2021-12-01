@@ -43,7 +43,7 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweeflinks {
+.img.zweeflinks {
 float: auto;
 width: 125px;
 padding:35px;

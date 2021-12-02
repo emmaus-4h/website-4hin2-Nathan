@@ -43,10 +43,12 @@ footer {
 
 /* specifieke stijlen */
 
-.img.zweeflinks {
-float: auto;
-width: 125px;
-padding:35px;
+.img-zweeflinks {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  length: auto;
 }
 
 .smalltext {

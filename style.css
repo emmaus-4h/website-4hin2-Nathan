@@ -1,11 +1,17 @@
+* {
+  overflow:hidden;
+}
 
+div {
+  border: 2px solid red;
+}
 /* Basislayout */
 
 html, body {
     height: 100%;
     padding: 0;
     background-color: rgb(245, 245, 245);
-    
+    overflow: visible;
     color: #303030;
      font-family: DotGothic16
     
@@ -51,6 +57,23 @@ display: block;
   length: auto;
 }
 
+.img-home {
+  float: left;
+display: block;
+  width: 100px;
+  padding: 10px;
+
+}
+
+.img2{
+float: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  length: 200px;
+  
+}
+
 .smalltext {
     font-size: 0.7em;
 }
@@ -64,6 +87,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.video{
+  width: 600px;
+  height: 300px;
+}
 
 /* navigatiebalk */
 nav ul {
@@ -95,6 +122,9 @@ nav li a.active {
     background-color: skyblue;
 }
 
+.fotos {
+  display: block;
+}
 
 
 

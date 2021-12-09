@@ -46,6 +46,11 @@ footer {
   
 }
 
+.worked{
+text-align: center;
+
+color: rgb(70, 70, 70);
+}
 
 /* specifieke stijlen */
 
@@ -58,10 +63,10 @@ display: block;
 }
 
 .img-home {
-  float: left;
+
 display: block;
-  width: 100px;
-  padding: 10px;
+  width: 300px;
+  padding: 22px;
 
 }
 

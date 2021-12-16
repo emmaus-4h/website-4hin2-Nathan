@@ -79,6 +79,14 @@ float: right;
   
 }
 
+.img3{
+ margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  length: 200px;
+  
+}
+
 .smalltext {
     font-size: 0.7em;
 }

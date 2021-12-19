@@ -3,7 +3,7 @@
 }
 
 div {
-  border: 2px solid red;
+  border: 2px solid rgb(245, 245, 245);
 }
 /* Basislayout */
 
@@ -82,9 +82,16 @@ float: right;
 .img3{
  margin-left: auto;
   margin-right: auto;
+width: 150px;
+length: 200px;
+}
+
+.img4{
+ margin-left: auto;
+  margin-right: auto;
   width: 150px;
   length: 200px;
-  
+  padding: 5px;
 }
 
 .smalltext {
@@ -101,8 +108,15 @@ a:hover {
 }
 
 .video{
-  width: 600px;
-  height: 300px;
+ margin-left: auto;
+  margin-right: auto;
+ width: 700px;
+height: 300px;
+}
+
+.spotify{
+    width: 700px;
+  height: 200px;
 }
 
 /* navigatiebalk */
